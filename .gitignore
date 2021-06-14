@@ -22,6 +22,8 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+pgan-venv/
+src/flickerHQ/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
