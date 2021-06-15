@@ -16,4 +16,4 @@ load_checkpoint(
             config.CHECKPOINT_GEN, gen, opt_gen, config.LEARNING_RATE,
         )
 
-generate_examples(gen, 4)
+generate_examples(gen, 2)
