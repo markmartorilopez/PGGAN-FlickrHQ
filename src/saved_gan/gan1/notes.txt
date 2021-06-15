@@ -1,0 +1,5 @@
+Input dim: 128
+
+Batch sizes: [16,16,16,16,16,16]
+
+Progressive epochs: [25] ....
