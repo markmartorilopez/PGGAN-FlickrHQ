@@ -22,7 +22,10 @@ so specifically the first 5 layers the channels stay the same,
 whereas when we increase the img_size (towards the later layers)
 we decrease the number of chanels by 1/2, 1/4, etc.
 """
-factors = [1, 1, 1, 1, 1 / 2, 1 / 4, 1 / 8, 1 / 16, 1 / 32]
+# factors = [1, 1, 1, 1, 1 / 2, 1 / 4, 1 / 8, 1 / 16, 1 / 32] # For the model of the paper
+
+# Adjusted to our implementation
+factors = [1, 1 / 2, 1 / 4, 1 / 8, 1 / 16, 1 / 32]
 
 
 class WSConv2d(nn.Module):

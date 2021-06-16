@@ -142,7 +142,7 @@ def main():
     scaler_gen = torch.cuda.amp.GradScaler()
 
     # for tensorboard plotting
-    writer = SummaryWriter(f"logs/gan1/"+datetime.now().strftime("%Y.%m.%d-%H%M") + "/")
+    writer = SummaryWriter(f"logs/gan2/"+datetime.now().strftime("%Y.%m.%d-%H%M") + "/")
 
     if config.LOAD_MODEL:
         load_checkpoint(
