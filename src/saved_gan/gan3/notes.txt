@@ -1,6 +1,4 @@
-import cv2
-import torch
-from math import log2
+"config.py"
 
 START_TRAIN_AT_IMG_SIZE = 4
 DATASET = 'flickerHQ'
@@ -19,3 +17,7 @@ LAMBDA_GP = 10
 PROGRESSIVE_EPOCHS = [50] * len(BATCH_SIZES)
 FIXED_NOISE = torch.randn(8, Z_DIM, 1, 1).to(DEVICE)
 NUM_WORKERS = 5
+
+"model.py"
+
+factors = [1, 1, 1, 1 / 2, 1 / 4, 1 / 8]
