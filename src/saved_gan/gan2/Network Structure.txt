@@ -1,0 +1,27 @@
+Generator
+
+Latent		512x1x1
+Conv4x4		512x4x4
+Conv3x3		512x4x4
+
+Upsample	512x8x8
+Conv3x3		256x8x8
+Conv3x3		256x8x8
+
+Upsample	256x16x16
+Conv3x3		128x16x16
+Conv3x3		128x16x16
+
+Upsample	128x32x32
+Conv3x3		64x32x32
+Conv3x3		64x32x32
+
+Upsample	64x64x64
+Conv3x3		32x64x64
+Conv3x3		32x64x64
+
+Upsample	32x128x128
+Conv3x3		16x128x128
+Conv3x3		16x128x128
+
+Conv1x1		3x128x128
