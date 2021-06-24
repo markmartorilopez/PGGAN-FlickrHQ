@@ -30,8 +30,13 @@ Project Organization
     │   └── utils.py       <- Utilization functions such as generating images from GAN
 	│
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment
-	├── LICENSE
     └── README.md          <- The top-level README for developers using this project.
 
 
 --------
+
+#### References
+
+1. FFHQ Dataset: https://github.com/NVlabs/ffhq-dataset
+2. Karras et al. 2017. "Progressive growing of gans for improved quality, stability, and varia-tion”. In:arXiv preprint arXiv:1710.10196
+
