@@ -9,6 +9,8 @@ Project Organization
     
     │
     ├── notebooks          <- Jupyter notebooks
+    │   └── EDA_FlickrHQ.ipynb   <- Exploratory Data Analysis of the Dataset
+    │   └── Score_Calculations.ipynb   <- Calculations of FID Scores
     │
     ├── reports            <- Folder to store files related to the report
     │   └── figures        <- Generated graphics and figures to be used in reporting
