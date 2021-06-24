@@ -23,6 +23,7 @@ var/
 .installed.cfg
 *.egg
 pgan-venv/
+venv/
 src/flickerHQ/
 
 # PyInstaller

@@ -3,3 +3,5 @@ opencv-python
 scipy
 tensorboard
 tqdm
+torch
+torchvision
